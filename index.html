@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio PlugManX</title>
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+        
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .reveal-delay-1 {
+            transition-delay: 0.2s;
+        }
+        
+        .reveal-delay-2 {
+            transition-delay: 0.4s;
+        }
+        
+        .reveal-delay-3 {
+            transition-delay: 0.6s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">PLUGMANX</div>
+                <div class="nav-links">
+                    <a href="#servicios">Servicios</a>
+                    <a href="#por-que">¿Por qué elegirnos?</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1 class="reveal">PLUGMANX</h1>
+            <p class="reveal reveal-delay-1">Protector de servidores de minecraft ante raideos y crasheos sin costo.</p>
+        </div>
+    </section>
+    
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Servicios</h2>
+            <p style="text-align: center; margin-bottom: 3rem; color: #a7b7f9;" class="reveal reveal-delay-1">En esta sección encontrarás informacion sobre los <strong>servicios</strong> que ofrecemos.</p>
+            
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <h3>RAIDEOS</h3>
+                    <p>Podras obtener proteccion avanzada contra los ultimos exploits para evitar raideos</p>
+                    <ul class="features-list">
+                        <li><strong>Exploits</strong></li>
+                        <li><strong>BungeeProtect</strong></li>
+                    </ul>
+                    <div class="price">Sin costo <strong></strong></div>
+                    <a href="#" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">GRATIS</a>
+                </div>
+                
+                <div class="service-card reveal reveal-delay-1">
+                    <h3>CRASHEOS</h3>
+                    <p>Protejere tu servidor con los ultimos crasheos y recomendandote plugins , tambien traigo mis plugins</p>
+                    <ul class="features-list">
+                        <li><strong>Packets</strong></li>
+                        <li><strong>Flood</strong></li>
+                        <li><strong>Plugins</strong></li>
+                        <li><strong>Tab</strong></li>
+                    </ul>
+                    <div class="price">Sin costo <strong></strong></div>
+                    <a href="#" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">GRATIS</a>
+                </div>
+                
+                <div class="service-card reveal reveal-delay-2">
+                    <h3>OPTIMIZACION</h3>
+                    <p>Optimizare tu servidor para que no haya caidas de tps ni lag.</p>
+                    <ul class="features-list">
+                        <li><strong>TPS</strong></li>
+                        <li><strong>LAG</strong></li>
+                        <li><strong>RECOMENDACIONES BUEN HOSTING</strong></li>
+                    </ul>
+                    <div class="price">Sin costo<strong></strong></div>
+                    <a href="#" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">GRATIS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="por-que" class="stats">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegirnos?</h2>
+            <p style="text-align: center; margin-bottom: 3rem; color: #a7b7f9;" class="reveal reveal-delay-1">En <strong>PlugMan Studios</strong>, nos dedicamos a ofrecerte una experiencia gratuita y de calidad. Por ello, pongo a tu disposicion una amplia gama de servicios de <strong>alta calidad</strong> totalmente gratis acompañados del <strong>mejor servicio al cliente</strong>.</p>
+            <div class="stats-grid">
+                <div class="stat-card reveal">
+                    <h3>GARANTIA DE POR VIDA</h3>
+                    <p>Si alguna optimizacion o proteccion te da problemas te ayudare.</p>
+                </div>
+                
+                <div class="stat-card reveal reveal-delay-1">
+                    <h3>GRATUITO</h3>
+                    <p>Todos mi servicios no requieren de ningun costo por ahora</p>
+                </div>
+                
+                <div class="stat-card reveal reveal-delay-2">
+                    <h3>SOPORTE 24/7</h3>
+                    <p>Casi siempre estoy conectado en discord : plugmanx_ asi que puedes contactarme por ahi</p>
+                </div>      
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Reviews</h2>
+            <p style="text-align: center; margin-bottom: 3rem; color: #a7b7f9;" class="reveal reveal-delay-1">Descubre lo que nuestros <strong>programa</strong> tienen que decir sobre la <strong>calidad</strong> de nuestros servicios y la <strong>excelencia</strong> de nuestro soporte.</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <p>"Me gusto mucho la expericia que PlugMan hizo en mi servidor"</p>
+                    <div class="testimonial-author">- LokiLand</div>
+                </div>
+                
+                <div class="testimonial-card reveal reveal-delay-1">
+                    <p>"PlugManX me optimizo el servidor de 19tps estables a 20!"</p>
+                    <div class="testimonial-author">- ShadowFleex_</div>
+                </div>
+                
+                <div class="testimonial-card reveal reveal-delay-2">
+                    <p>"Me raidearon mi servidor y PlugMan lo protejio , desde ahi nadie pudo obtener permisos."</p>
+                    <div class="testimonial-author">- Cosmos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <footer>
+        <div class="container">
+            <div class="footer-links reveal">
+                <a href="#servicios">Servicios</a>
+                <a href="#por-que">¿Por qué elegirnos?</a>
+                <a href="#faq">Preguntas Frecuentes</a>
+                <a href="#">Términos del Servicio</a>
+            </div>
+            
+            <div class="social-icons">
+                <a href="#">D</a>
+                <a href="#">T</a>
+                <a href="#">I</a>
+                <a href="#">G</a>
+            </div>
+            
+            <p class="copyright reveal reveal-delay-2">© 2025 PlugManX. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        function revealOnScroll() {
+            const reveals = document.querySelectorAll('.reveal');
+            
+            for (let i = 0; i < reveals.length; i++) {
+                const windowHeight = window.innerHeight;
+                const elementTop = reveals[i].getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add('active');
+                } else {
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+        
+        window.addEventListener('DOMContentLoaded', revealOnScroll);
+        
+        window.addEventListener('scroll', revealOnScroll);
+    </script>
+</body>
+</html>
